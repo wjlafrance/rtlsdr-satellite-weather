@@ -1,0 +1,26 @@
+# morning
+echo "~/rtlsdr/satellite_weather/capture.sh 19 14 0 S" | at 7:26
+#echo "~/rtlsdr/satellite_weather/capture.sh 19 14 0 S" | at 
+echo "~/rtlsdr/satellite_weather/capture.sh 15 14 0 S" | at 8:38
+#echo "~/rtlsdr/satellite_weather/capture.sh 15 14 0 S" | at 
+echo "~/rtlsdr/satellite_weather/capture.sh 18 14 0 S" | at 10:35
+echo "~/rtlsdr/satellite_weather/capture.sh 18 14 0 S" | at 12:16
+# evening
+echo "~/rtlsdr/satellite_weather/capture.sh 19 14 0 N" | at 17:14
+echo "~/rtlsdr/satellite_weather/capture.sh 15 14 0 N" | at 18:21
+echo "~/rtlsdr/satellite_weather/capture.sh 19 14 0 N" | at 18:53
+echo "~/rtlsdr/satellite_weather/capture.sh 15 14 0 N" | at 20:02
+echo "~/rtlsdr/satellite_weather/capture.sh 18 14 0 N" | at 22:02
+#echo "~/rtlsdr/satellite_weather/capture.sh 18 14 0 N" | at 
+
+  Satellite   Dir  MEL  Long         Local Time    UTC Time Duration      Freq
+  NOAA 19       S  76E   87W     09-14 07:26:00    12:26:00    11:44  137.1000
+  NOAA 15       S  86E   89W     09-14 08:38:54    13:38:54    11:25  137.6200
+  NOAA 18       S  65E   85W     09-14 10:35:19    15:35:19    11:50  137.9125
+  NOAA 18       S  20W  108W     09-14 12:16:57    17:16:57     8:54  137.9125
+
+  NOAA 19       N  24E   73W     09-14 17:14:12    22:14:12     9:34  137.1000
+  NOAA 15       N  21E   72W     09-14 18:21:52    23:21:52     8:41  137.6200
+  NOAA 19       N  54W   96W     09-14 18:53:27    23:53:27    11:40  137.1000
+NOAA 15       N  56W   95W     09-14 20:00:02    01:00:02    11:06  137.6200
+  NOAA 18       N  65W   94W     09-14 22:02:44    03:02:44    11:41  137.9125
